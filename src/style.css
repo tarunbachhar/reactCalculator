@@ -1,0 +1,70 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.header {
+  margin-top:0px;
+  margin-bottom: 0px;
+  background-color: 	#F08080;
+  padding-top:10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.main {
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color: #FAEBD7;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footer {
+  background-color:  #e6e600;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  text-align: center;
+  height: 4em;
+}
+.display {
+  background-color: #D4EEF1;
+  height: 4.5em;
+  width: 13.6em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-style: solid ;
+  border-color:#d9d9d9;
+  border-width: 2px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.battan {
+  width: 4em;
+  height: 4em;
+  font-size: 15px;
+  margin:0.3em;
+}
+.equal {
+  width:8.7em;
+  margin:0.3em;
+  height: 4em;
+  font-size: 15px;
+  color: black;
+}
+.AC, .CE {
+  color: black;
+}
+.btn:focus {
+  outline:none;
+}
+.lastrow {
+  margin-bottom: 3em;
+}
+input {
+
+  direction: RTL;
+}
